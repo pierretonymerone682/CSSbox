@@ -1,0 +1,229 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #000000;
+	background: #1364A6;
+	background-repeat:repeat-x;
+}
+*
+{
+  margin: 0 auto 0 auto;
+ text-align:left;}
+
+ #scrolling, ul, li{
+	background-color: blue;
+	box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+	text-align: center;
+	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+	color: white;
+	padding: 50px;
+	font-size: 20px;
+ 			}
+ #content-3{
+	height: 100%;
+    z-index: 1; 
+	margin: 100px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 00px;
+ }
+
+#container
+{
+	padding: 50px;
+    display: block; 
+    height: auto;
+    position: relative; 
+    width: 750px;
+    background-image:url("images/background.jpg");
+    background-repeat:repeat-y;
+    overflow:hidden;
+}
+h1{
+	padding: 50px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+
+.img-2{
+	position: relative;
+  min-height: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 1;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  border-radius: 100px;
+  background-attachment: fixed;
+  background-image: url("images/image2.jpg");
+
+
+}
+
+.background-picture{
+	height: 100%;
+    z-index: 1;
+	background-image: url(https://www.gardeningknowhow.com/wp-content/uploads/2007/03/flowers-1.jpg);
+}
+
+#links
+{
+ display:block;
+text-align: center;
+ margin-top:25px;
+ margin-right:10px;
+}
+
+#links a, #links a:visited
+{
+font-size:16px;
+font-weight:bold;
+margin-left:4px;
+margin-right:4px;
+color: #1652B4;
+text-decoration:none;
+}
+
+#links a:hover
+{
+border-bottom:dotted 1px #1652B4;
+}
+.aa{
+	padding: 30px;
+}
+
+#header
+{
+height:60px;
+
+}
+
+#header h1
+{
+margin-top:15px;
+margin-left:10px;
+font-size:33px;
+color:#0A2645;
+float:left;
+}
+
+.off
+{
+color:#1652B4;
+}
+
+ictur
+{
+	background-size: cover;
+	background-attachment: fixed;
+	background-image:url(images/imagebackground.jpg);
+	background-repeat:repeat-x;
+	background-position:bottom;
+	padding-bottom:8px;
+	margin-top:22px;
+	position: relative;
+    min-height: 50%;
+}
+
+ h2{
+	text-align: center;
+	font-size: 30px;
+	color: teal;
+}
+
+.img-2.h2{
+	color: ghostwhite;
+}
+
+.contenttext.h2
+{
+color: cornsilk;
+font-size:24px;
+margin-bottom:10px;	
+}
+
+.contenttext
+{
+	margin-bottom: 30px;
+	padding-left:10px;
+	padding-right:10px;
+	position: relative;
+    min-height: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 1;
+    clip-path: circle(300px at 50% 50%);
+    background-attachment: fixed;
+	background-image: url("images/image3.jpg");
+}
+
+.img-3{
+	background-size: cover;
+	background-attachment: fixed;
+	clip-path: ellipse(200px 300px at 50% 50%);
+	background-image:url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/daisy-flower-1532449822.jpg?crop=0.752xw:1.00xh;0.125xw,0&resize=640:*);
+	background-repeat:repeat-x;
+	background-position:bottom;
+	padding-bottom:8px;
+	margin-top:22px;
+	position: relative;
+    min-height: 50%;
+}
+
+
+#content-10, h2{
+
+}
+
+.round-img, .round-22{
+  padding: 50px; 
+  width: 600px;
+  height: 450px; 
+}
+.round-22{
+	border-radius: 20%;
+}
+
+.tonyy{
+	 position:fixed; 
+	 top :100px;
+	 right:40px;
+	 font-size: 35px;
+	 font-family: Verdana, Geneva, Tahoma, sans-serif;
+	 font-size: xx-large;
+	 z-index: 3;
+	 color: salmon;
+}
+
+
+#footer
+{
+font-size:12px;
+color:#519FEE;
+margin-top:18px;
+width:750px;
+text-align:center;
+}
+#footer a, #footer a:visited
+{
+	text-align:center;
+color:#ADCCF1;
+	text-decoration:none;
+}
+
+html, body {
+text-align: center;
+}
+
+p {
+    text-align: left;
+    background-color: #ADCCF1;
+	border-radius: 10px;
+	width: 300px;
+}
